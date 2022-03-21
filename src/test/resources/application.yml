@@ -1,0 +1,10 @@
+spring:
+  profiles: 'h2'
+  application:
+    name: smart-investment
+
+  datasource:
+    url: jdbc:h2:~/test
+    username: sa
+    password:
+    driver-class-name: "org.h2.Driver"
